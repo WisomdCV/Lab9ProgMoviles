@@ -59,7 +59,7 @@ fun ProgPrincipal9() {
     Scaffold(
         topBar = { BarraSuperior() },
         bottomBar = { BarraInferior(navController) },
-        content = { paddingValues -> Contenido(paddingValues, navController, retrofit) }
+        content = { paddingValues -> Contenido(paddingValues, navController, servicio) }
     )
 }
 
